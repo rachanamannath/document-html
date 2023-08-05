@@ -1,4 +1,4 @@
-#Follow-Up Questions:
+# Follow-Up Questions:
 
 1. Could you provide more details about the specific system requirements and hardware configurations needed to run the Chip Creator tool effectively?
 
