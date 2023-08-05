@@ -3,6 +3,8 @@
 Hey, there folks,
 I have created this document with HTML tags and structure. This document was part of the test that I had given during my interview process. Below are the product brief, style guidelines, and comments of the developer related to the product for documentation creation. I couldn’t include screenshots as this was a test and I didn’t receive any screenshots along with it.  However, it was required to create follow-up questions for the document, which I have added to the repository.
 
+#### [HTML Document](https://rachanamannath.github.io/document-html/guide.html) for your reference. This is how it appears.
+
 **Brief:**
 Chip Creator tool exceeds the performance of the previous generation of floor planning tools and we recommend using the newest version. It is relevant for use by Integrated Circuit designers. The tool does not loose performance when running on large designs, its performance is linear with the # of cells in the design. The tool support multiple CPU instances and no extra licenses are required; since 1 license has unlimited CPUs to use. The intelligent graphical user interface and batch tool is easy to use. You’re in complete control of the behaviour given the many options available. Preferences are shared between multiple users if desired using network files to make teamwork better. Chip Creator reads library information and the design information (such as schematic and clock speed) and then places and connects all of the design components on the chip using wires. Wires are metal but also sometimes polysilicon. When the run is complete you have an image of a chip that can be sent to factories for manufacturing in integrated circuit package. The chip then became part of phones or computer. At end of the run, there is always a log file and report that can be viewed in text reading/viewing software like notepad. It is recommended that you using third-party tool to verify the design to ensure that Chip Creator did everything correct. If there’s a problem, you can fix the issue found in Chip Creator and rerun the tool until the design is clean.
 
@@ -25,6 +27,3 @@ The following list is a basic set of rules to consider when developing the topic
 -	Connect all wires with Run&gt;connect wires or connect command Wires are using different layers available from tech.lef file. You can custom the layers used if desired using set_layers command If wires can’t be connect, consider doing the place again. Place cells has random algorithm that can cause bad wire connecting sometime.
 -	Chip is all done now! All cell placed correct according to rules and all wires connect all cells to eachother! User can run verify design if they want to make sure all was done accordingly. This is Verify &gt; All Design menu choice.
 
-
-
-[HTML Document](https://rachanamannath.github.io/document-html/guide.html) for your reference. This is how it appears.
